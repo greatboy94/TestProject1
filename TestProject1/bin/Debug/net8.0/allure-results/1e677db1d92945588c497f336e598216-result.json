@@ -1,0 +1,59 @@
+{
+  "uuid": "b05c2b36-767d-4d3e-a6b0-ee458e51e2ae",
+  "historyId": "efa32ef32ed09eb6748e8ff232a2dc69",
+  "testCaseId": "710ac252001d83c7be04aafa752ee8e9",
+  "fullName": "TestProject1:TestProject1.Tests.Test1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NBA-097-01-UZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Test1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "\r\nTearDown : System.ArgumentNullException : Value cannot be null. (Parameter 'key')",
+    "trace": "   at TestProject1.Tests.Test1() in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\UnitTest1.cs:line 38\r\n\r\n--TearDown\r\n   at System.ThrowHelper.ThrowArgumentNullException(String name)\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.TryGetValue(TKey key, TValue& value)\r\n   at System.Collections.Concurrent.ConcurrentDictionary`2.get_Item(TKey key)\r\n   at Allure.Commons.Storage.AllureStorage.Get[T](String uuid)\r\n   at Allure.Commons.AllureLifecycle.AddAttachment(String name, String type, Byte[] content, String fileExtension)\r\n   at TestProject1.Tests.TearDown() in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\UnitTest1.cs:line 61\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "This is a sample test",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "9dd30441-b8c2-437e-b467-258ee4935193-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1715603171274,
+  "stop": 1715603175786
+}

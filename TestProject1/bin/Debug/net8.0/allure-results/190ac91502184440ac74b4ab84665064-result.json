@@ -1,0 +1,69 @@
+{
+  "uuid": "6bda0eff-f226-4b6f-a079-3d43123323a0",
+  "historyId": "efa32ef32ed09eb6748e8ff232a2dc69",
+  "testCaseId": "710ac252001d83c7be04aafa752ee8e9",
+  "fullName": "TestProject1:TestProject1.Tests.Test1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NBA-097-01-UZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "John Doe"
+    }
+  ],
+  "links": [],
+  "name": "Test1",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.IO.FileNotFoundException : Could not find file 'C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\bin\\Debug\\net8.0\\test_data.json'.",
+    "trace": "   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\r\n   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)\r\n   at System.IO.File.ReadAllText(String path, Encoding encoding)\r\n   at TestProject1.ReadData.ReadTestData(String filePath) in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\ReadData.cs:line 10\r\n   at TestProject1.Tests.Test1() in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\UnitTest1.cs:line 36\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "This is a sample test",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1715154780347,
+  "stop": 1715154791104
+}

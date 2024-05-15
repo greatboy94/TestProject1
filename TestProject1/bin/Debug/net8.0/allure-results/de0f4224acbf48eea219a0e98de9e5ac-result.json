@@ -1,0 +1,75 @@
+{
+  "uuid": "764f5a33-fdb7-43a5-bc96-57e2c13fb738",
+  "historyId": "efa32ef32ed09eb6748e8ff232a2dc69",
+  "testCaseId": "710ac252001d83c7be04aafa752ee8e9",
+  "fullName": "TestProject1:TestProject1.Tests.Test1()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NBA-097-01-UZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "John Doe"
+    }
+  ],
+  "links": [],
+  "name": "Test1",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test Passed",
+    "trace": "   at TestProject1.Tests.Test1() in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\UnitTest1.cs:line 40\r\n"
+  },
+  "stage": "finished",
+  "description": "This is a sample test",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "8a3c38fa-a2f0-4701-b98b-f45d0f2b4a07-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1714988795293,
+  "stop": 1714988810069
+}

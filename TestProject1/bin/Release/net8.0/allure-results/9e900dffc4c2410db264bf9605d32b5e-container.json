@@ -1,0 +1,12 @@
+{
+  "uuid": "2e5b9362-2d30-45e4-927a-0eccf5d499f8",
+  "name": "TestProject1.Tests.Test2",
+  "children": [
+    "a4b64a8e-c01a-41ee-ada0-140c97dd8070"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1715759180030,
+  "stop": 1715759184636
+}

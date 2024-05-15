@@ -1,0 +1,59 @@
+{
+  "uuid": "74f1023f-a42f-45d4-b267-4d2e17d33e41",
+  "historyId": "98651c67133419994f42731172a5f3f1",
+  "testCaseId": "a90694970901170eb344a8a84abe00a5",
+  "fullName": "TestProject1:TestProject1.Tests.Test2()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NBA-097-01-UZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Test2",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test Passed",
+    "trace": "   at TestProject1.Tests.Test2() in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\UnitTest1.cs:line 50\r\n"
+  },
+  "stage": "finished",
+  "description": "This is a sample test",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "18ded0fe-1332-4857-98a6-9122e51bb150-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1715759038826,
+  "stop": 1715759043333
+}

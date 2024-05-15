@@ -1,0 +1,12 @@
+{
+  "uuid": "92bcec9f-3165-4df0-b966-ea0fc7a210ff",
+  "name": "TestProject1.Tests.Test1(\"wrongEmail@gmail.com\",\"123123\")",
+  "children": [
+    "9e9e5ffd-e604-49e0-98e0-00cb44c5cee8"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1715174689935,
+  "stop": 1715174694317
+}

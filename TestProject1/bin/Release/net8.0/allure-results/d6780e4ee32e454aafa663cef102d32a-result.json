@@ -1,0 +1,86 @@
+{
+  "uuid": "2f4645c6-3f19-446e-9a1b-8f9bc14d4b5c",
+  "historyId": "f48e13f9ae3465bfece1f59b095fea5c",
+  "testCaseId": "b5b63729f88010aa9aeb0a20bbe3d4d1",
+  "fullName": "TestProject1:TestProject1.Tests.Test2(System.String,System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NBA-097-01-UZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "UI"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "John Doe"
+    }
+  ],
+  "links": [],
+  "name": "Test2(\"wrongEmail@gmail.com\",\"123123\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test Passed",
+    "trace": "   at TestProject1.Tests.Test2(String username, String password) in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\UnitTest1.cs:line 56\r\n"
+  },
+  "stage": "finished",
+  "description": "This is a sample test",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "2fc7f18b-0afe-4828-b3c6-5b0e0c31c0bd-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"wrongEmail@gmail.com\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"123123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1715592013138,
+  "stop": 1715592017373
+}

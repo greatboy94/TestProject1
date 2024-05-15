@@ -1,0 +1,12 @@
+{
+  "uuid": "c9e1431c-5b64-4cf3-9998-59fe3a3f79c4",
+  "name": "TestProject1.Tests.Test2(\"testuser2@gmail.com\",\"12345\")",
+  "children": [
+    "01596072-aabc-4821-b74f-63bc7e2aa45d"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1715590677831,
+  "stop": 1715590683859
+}

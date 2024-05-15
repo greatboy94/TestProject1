@@ -1,0 +1,70 @@
+{
+  "uuid": "e1226843-1c28-41db-b1ab-2ca03613750f",
+  "historyId": "0f612ecc5e82acaf37903e7d1545d814",
+  "testCaseId": "a1e1a1ed5593416d730714ed2b949b95",
+  "fullName": "TestProject1:TestProject1.Tests.Test1(System.String,System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NBA-097-01-UZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "TestProject1"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "Test1(\"wrongEmail@gmail.com\",\"123123\")",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test Passed",
+    "trace": "   at TestProject1.Tests.Test1(String username, String password) in C:\\Users\\buiukbek.navruzov.VENTION\\RiderProjects\\TestProject1\\TestProject1\\UnitTest1.cs:line 39\r\n"
+  },
+  "stage": "finished",
+  "description": "This is a sample test",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "4e717201-d908-42d6-993e-60f224532acd-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"wrongEmail@gmail.com\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"123123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1715591366674,
+  "stop": 1715591371410
+}
