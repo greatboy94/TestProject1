@@ -16,9 +16,8 @@ public class Tests
     [SetUp]
     public void Setup()
     {
-        var chromeOptions = new ChromeOptions();
         new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
-        driver = new ChromeDriver(chromeOptions);
+        driver = new ChromeDriver();
 
         driver.Manage().Window.Maximize();
         driver.Navigate().GoToUrl("https://staging.foodpunk.de/login");
