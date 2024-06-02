@@ -2,7 +2,6 @@ using Allure.NUnit.Attributes;
 using NUnit.Allure.Core;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Remote;
 using WebDriverManager.DriverConfigs.Impl;
 
 namespace TestProject1;
@@ -17,8 +16,6 @@ public class Tests
     [SetUp]
     public void Setup()
     {
-        ChromeOptions chromeOptions = new ChromeOptions();
-        driver = new RemoteWebDriver(new Uri("192.0.0.1"), chromeOptions);
         new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
         driver = new ChromeDriver();
 
