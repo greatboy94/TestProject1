@@ -48,6 +48,15 @@ public class Tests
         Console.WriteLine("Passed");
         Assert.Pass();
     }
+    [Test]
+    public void Test3()
+    {
+        driver.FindElement(By.Id("email")).SendKeys("username2@gmail.com");
+        driver.FindElement(By.Id("password")).SendKeys("1234566");
+        driver.FindElement(By.XPath("//button[@type='submit']")).Click();
+        Console.WriteLine("Passed");
+        Assert.Pass();
+    }
 
     [TearDown]
     public void TearDown()
