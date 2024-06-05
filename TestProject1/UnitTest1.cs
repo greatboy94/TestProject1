@@ -52,6 +52,7 @@ public class Tests
     public void Test3()
     {
         //Added comment
+        //Added comment
         driver.FindElement(By.Id("email")).SendKeys("username2@gmail.com");
         driver.FindElement(By.Id("password")).SendKeys("1234566");
         driver.FindElement(By.XPath("//button[@type='submit']")).Click();
