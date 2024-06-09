@@ -365,3 +365,6 @@ C:\Users\great\RiderProjects\TestProject1\TestProject1\obj\Debug\net8.0\refint\T
 C:\Users\great\RiderProjects\TestProject1\TestProject1\obj\Debug\net8.0\TestProject1.pdb
 C:\Users\great\RiderProjects\TestProject1\TestProject1\obj\Debug\net8.0\TestProject1.genruntimeconfig.cache
 C:\Users\great\RiderProjects\TestProject1\TestProject1\obj\Debug\net8.0\ref\TestProject1.dll
+C:\Users\great\RiderProjects\TestProject1\TestProject1\bin\Debug\net8.0\NLog.dll
+C:\Users\great\RiderProjects\TestProject1\TestProject1\bin\Debug\net8.0\SeleniumExtras.PageObjects.dll
+C:\Users\great\RiderProjects\TestProject1\TestProject1\bin\Debug\net8.0\utilities\testData.json
