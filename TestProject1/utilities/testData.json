@@ -1,0 +1,16 @@
+{
+  "LoginData": {
+    "ValidCredentials": [
+      {
+        "Username": "buiukbek.navruzov@itechart-group.com",
+        "Password": "BUYUKBEK1234"
+      }
+    ],
+    "InvalidCredentials": [
+      {
+        "Username": "wrongEmail@gmail.com",
+        "Password": "123123"
+      }
+    ]
+  }
+}
